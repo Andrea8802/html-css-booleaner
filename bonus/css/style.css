@@ -1,0 +1,130 @@
+/* Regole Generali */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container{
+    padding: 0px 120px;
+}
+
+
+/* Regole Header */
+header{
+    background-color: #4da1ff;
+    background-image: url("../img/pattern.png");
+    background-size: 300px;
+    background-position-x: center;
+    height: 75px;
+}
+
+header div{
+    width: 420px;
+    padding: 25px 115px;
+}
+
+/* Regole Blocco Principale */
+h1{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.autore{
+    color:grey;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.autore > a{
+    text-decoration: none;
+    color: #26aee7;
+}
+
+.data{
+    margin-bottom: 20px;
+    color:grey;
+    font-weight: 600;
+}
+
+.copyright{
+    margin-bottom: 20px;
+}
+
+.copyright > div{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Descrizione */
+p > span{
+    background-color: yellow;
+}
+
+#descrizione{
+    margin: 20px 0px;
+}
+
+/* Elenco */
+ul{
+    padding-left: 40px;;
+}
+
+/* Tabella */
+table{
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+
+th{
+    width: calc(100% / 3);
+    padding-left: 10px;
+    background-color: #1aaae6;
+    text-align: left;
+    color: white;
+}
+
+td{
+    padding-left: 10px;
+}
+
+.row-a{
+    background-color: #b2e6f2;
+}
+
+/* Footer */
+footer > h3{
+    color: grey;
+    margin: 25px 0px 8px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#image1{
+    background-image: url("../img/monitor.jpg");
+    width: 312px;
+    height: 208px;
+    margin-bottom: 10px;
+}
+
+#image1 > div{
+    padding: 10px 10px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+#image2{
+    background-image: url("../img/graph.jpg");
+    width: 311px;
+    height: 207px;
+    margin-bottom: 30px;
+}
+
+#image2 > div{
+    padding: 10px 10px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
