@@ -7,7 +7,7 @@
 }
 
 .container{
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 
 
@@ -16,17 +16,18 @@ header{
     background-color: #4da1ff;
     background-image: url("../img/pattern.png");
     background-size: 300px;
+    background-position-x: center;
     height: 75px;
 }
 
 header div{
-    width: 150px;
-    padding: 30px 10px;
+    width: 220px;
+    padding: 25px 18px;
 }
 
 /* Regole Blocco Principale */
 h1{
-    font-size: 34px;
+    font-size: 40px;
     margin-top: 10px;
 }
 
@@ -44,6 +45,7 @@ h1{
 .data{
     margin-bottom: 20px;
     color:grey;
+    font-weight: 600;
 }
 
 .copyright{
@@ -52,7 +54,7 @@ h1{
 
 .copyright > div{
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* Descrizione */
@@ -64,17 +66,65 @@ p > span{
     margin: 20px 0px;
 }
 
-/* Tabella */
-table{
-    border:0px;
+/* Elenco */
+ul{
+    padding-left: 40px;;
 }
 
-thead{
+/* Tabella */
+table{
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+
+th{
+    width: calc(100% / 3);
+    padding-left: 10px;
     background-color: #1aaae6;
     text-align: left;
-    border: 1px solid red;
+    color: white;
+}
+
+td{
+    padding-left: 10px;
 }
 
 .row-a{
     background-color: #b2e6f2;
+}
+
+/* Footer */
+footer > h3{
+    color: grey;
+    margin: 25px 0px 8px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#image1{
+    background-image: url("../img/monitor.jpg");
+    width: 312px;
+    height: 208px;
+    margin-bottom: 10px;
+}
+
+#image1 > div{
+    padding: 10px 10px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+#image2{
+    background-image: url("../img/graph.jpg");
+    width: 311px;
+    height: 207px;
+    margin-bottom: 30px;
+}
+
+#image2 > div{
+    padding: 10px 10px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
 }
