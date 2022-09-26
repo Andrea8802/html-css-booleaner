@@ -48,3 +48,7 @@ h1{
     font-weight: 500;
 }
 
+/* Descrizione */
+p > span{
+    background-color: yellow;
+}
