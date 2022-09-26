@@ -1,6 +1,9 @@
 /* Regole Generali */
 *{
+    box-sizing: border-box;
     margin: 0px;
+    padding: 0px;
+    
 }
 
 .container{
@@ -43,6 +46,10 @@ h1{
     color:grey;
 }
 
+.copyright{
+    margin-bottom: 20px;
+}
+
 .copyright > div{
     font-size: 12px;
     font-weight: 500;
@@ -51,4 +58,23 @@ h1{
 /* Descrizione */
 p > span{
     background-color: yellow;
+}
+
+#descrizione{
+    margin: 20px 0px;
+}
+
+/* Tabella */
+table{
+    border:0px;
+}
+
+thead{
+    background-color: #1aaae6;
+    text-align: left;
+    border: 1px solid red;
+}
+
+.row-a{
+    background-color: #b2e6f2;
 }
