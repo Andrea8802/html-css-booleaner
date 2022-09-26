@@ -1,7 +1,12 @@
-/* Regole generali */
+/* Regole Generali */
 *{
     margin: 0px;
 }
+
+.container{
+    padding: 0px 10px;
+}
+
 
 /* Regole Header */
 header{
@@ -15,3 +20,31 @@ header div{
     width: 150px;
     padding: 30px 10px;
 }
+
+/* Regole Blocco Principale */
+h1{
+    font-size: 34px;
+    margin-top: 10px;
+}
+
+.autore{
+    color:grey;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.autore > a{
+    text-decoration: none;
+    color: #26aee7;
+}
+
+.data{
+    margin-bottom: 20px;
+    color:grey;
+}
+
+.copyright > div{
+    font-size: 12px;
+    font-weight: 500;
+}
+
