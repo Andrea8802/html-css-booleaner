@@ -1,0 +1,17 @@
+/* Regole generali */
+*{
+    margin: 0px;
+}
+
+/* Regole Header */
+header{
+    background-color: #4da1ff;
+    background-image: url("../img/pattern.png");
+    background-size: 300px;
+    height: 75px;
+}
+
+header div{
+    width: 150px;
+    padding: 30px 10px;
+}
