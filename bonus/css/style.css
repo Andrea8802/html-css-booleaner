@@ -87,10 +87,15 @@ th{
 
 td{
     padding-left: 10px;
+    width: 20%;
 }
 
 .row-a{
     background-color: #b2e6f2;
+}
+
+.description{
+    width: 60%;
 }
 
 /* Footer */
