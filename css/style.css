@@ -78,7 +78,6 @@ table{
 }
 
 th{
-    width: calc(100% / 3);
     padding-left: 10px;
     background-color: #1aaae6;
     text-align: left;
@@ -87,10 +86,15 @@ th{
 
 td{
     padding-left: 10px;
+    width: 20%;
 }
 
 .row-a{
     background-color: #b2e6f2;
+}
+
+.description{
+    width: 60%;
 }
 
 /* Footer */
